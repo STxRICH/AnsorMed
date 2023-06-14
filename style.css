@@ -1,0 +1,147 @@
+.body {
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: red;
+    border: 2px solid red;
+    font-family: 'Open Sans Condensed', sans-serif, Arial;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22.5px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: .3s ease color,
+}
+
+.btn:hover {
+    color: red;
+    background-color: #fff;
+    transition: 0.5s ease all;
+}
+
+.btn:active {
+    color: #fff;
+    background-color: red;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: .3s ease all;
+}
+
+.img {
+    margin-right: 17px;
+}
+
+.text {
+    color: black;
+    font-size: 24px;
+    line-height: 32.5px;
+    font-weight: 600;
+    transition: .3s ease color;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo:hover .text {
+    color: red;
+}
+
+
+.list {
+    display: flex;
+}
+
+.item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    transition: .3s ease color, .3s ease all;
+}
+
+.link:hover {
+    color: red;
+}
+
+.link:active {
+    opacity: .6;
+}
+
+.brat {
+    color: #fff;
+    background-color: rgb(74, 159, 187);
+}
+
+.brat-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brat-content {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 600px;
+}
+
+.brat-title {
+    font-family: 'Open Sans Condensed', sans-serif, Arial;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 16px;
+}
+
+.brat-description {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
